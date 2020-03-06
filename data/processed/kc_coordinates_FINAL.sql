@@ -1,4 +1,7 @@
-select blklatdd, blklondd from wa_geo_xwalk where zcta in ('98001',
+SELECT blklatdd, blklondd 
+FROM wa_geo_xwalk 
+WHERE zcta 
+IN ('98001',
  '98002',
  '98003',
  '98022',
